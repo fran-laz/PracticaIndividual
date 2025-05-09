@@ -190,6 +190,24 @@ Tienes tres opciones:
 Al resolverlos, se guarda el archivo, se añade (`git add`) y se finaliza el merge con un commit.
 
 Los conflictos son comunes y parte del trabajo colaborativo.
+#
+# Tema4
+
+# ¿Git y GitHub son lo mismo?
+
+**Git** es un sistema de control de versiones distribuido. Permite llevar un registro de los cambios realizados en archivos de código, facilitando la colaboración entre desarrolladores.
+
+**GitHub**, en cambio, es una plataforma basada en la nube que permite alojar repositorios de Git.
+
+GitHub proporciona herramientas adicionales como seguimiento de incidencias, integración continua, wikis y colaboración.
+
+En resumen:
+- Git es la herramienta de control de versiones.
+- GitHub es un servicio que usa Git para facilitar la colaboración en línea.
+
+También existen otras plataformas similares.
+
+
 
 
 
