@@ -250,6 +250,29 @@ git push origin main
 4. Copiar la clave pública y pegarla en GitHub.
 
 También puedes clonar repositorios, crear ramas remotas y sincronizar cambios fácilmente con comandos Git.
+#
+# Tema5
+# ¿Cuál es la diferencia entre git push y git pull?
+
+## git push
+Este comando se usa para enviar (empujar) los cambios desde el repositorio local al repositorio remoto.
+
+Ejemplos:
+- `git push origin main`: Empuja los cambios a la rama `main` remota.
+- `git push -u origin rama`: Establece upstream.
+- `git push -f`: Forzado (con precaución).
+- `git push -d origin rama`: Elimina una rama remota.
+
+## git pull
+Este comando se usa para traer (jalar) cambios del repositorio remoto al local.
+
+Ejemplos:
+- `git pull`: Trae cambios de la rama remota relacionada.
+- `git pull origin rama`: Desde rama específica.
+- `git pull --all`: Trae de todas las ramas.
+
+Ambos comandos mantienen sincronizados los repositorios locales y remotos.
+
 
 
 
