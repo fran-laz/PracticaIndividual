@@ -380,6 +380,24 @@ Un proyecto bien gestionado con buenas prácticas en Git se vuelve más fácil d
 
 También permiten detectar errores más rápido y evitan que se generen conflictos innecesarios al momento de hacer merges.
 
+# ¿Cada cuánto debería hacer un commit?
+
+Lo ideal es hacer commits con frecuencia, pero con sentido.  
+Cada commit debe representar una unidad lógica del trabajo realizado,  
+como una función implementada o una corrección puntual.
+
+Hacer commits frecuentes permite:
+- Revertir cambios con facilidad.
+- Detectar errores más rápido.
+- Tener trazabilidad sobre el desarrollo.
+
+Evita hacer un solo commit gigante que abarque demasiadas acciones distintas.  
+En su lugar, divide los cambios en partes comprensibles y coherentes.
+
+No significa que debas hacer un commit por cada línea,  
+sino encontrar un punto medio con sentido técnico y práctico.
+
+
 
 
 
