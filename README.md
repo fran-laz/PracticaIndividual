@@ -273,6 +273,23 @@ Ejemplos:
 
 Ambos comandos mantienen sincronizados los repositorios locales y remotos.
 
+# Experimentos con git push y git pull
+
+## git push
+- Puedes hacer push desde una rama secundaria a `main`.
+- `git push -u` establece upstream: vincula la rama local a la remota.
+- `git push -f` debe usarse con cuidado, puede sobrescribir cambios.
+- `git push -d` permite eliminar ramas remotas que ya no se usan.
+
+## git pull
+- Puedes traer cambios desde otras ramas sin cambiar de rama local.
+- También puedes traer múltiples ramas con un solo comando.
+- `git pull` puede generar conflictos si hay cambios locales no sincronizados.
+- Es buena práctica hacer `pull` antes de trabajar para evitar conflictos.
+
+Estos experimentos ayudan a comprender mejor cómo fluye el trabajo entre local y remoto.
+
+
 
 
 
