@@ -345,6 +345,27 @@ crear una `release` para probar, y finalmente fusionar a `main` cuando esté lis
 
 Este sistema minimiza conflictos y mejora la estabilidad del producto en cada etapa.
 
+# Flujos alternativos a GitFlow
+
+Existen otros flujos de trabajo que se adaptan a diferentes necesidades de los equipos:
+
+## GitHub Flow
+Un flujo más simple y ágil. Solo utiliza `main` y ramas auxiliares que se integran mediante Pull Requests.  
+Ideal para proyectos con despliegue continuo y necesidades de cambio frecuente.
+
+## Trunk Based Development
+Promueve una única rama (`main`) y ramas efímeras de vida muy corta.  
+Depende fuertemente de un sistema CI/CD eficiente y de buenas prácticas de desarrollo.
+
+## Ship / Show / Ask
+Modelo basado en confianza y responsabilidad del equipo:
+- **Ship**: se fusiona directamente a `main` sin revisión.
+- **Show**: se revisa de manera automática y se fusiona.
+- **Ask**: se abre una PR para discutir y revisar los cambios antes de integrar.
+
+Este último modelo solo funciona en equipos maduros con buena comunicación,  
+automatización de pruebas y responsabilidad individual clara.
+
 
 
 
