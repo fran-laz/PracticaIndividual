@@ -207,6 +207,20 @@ En resumen:
 
 También existen otras plataformas similares.
 
+# ¿GitHub es único?
+
+No, GitHub no es la única plataforma para alojar repositorios Git.
+
+### Alternativas:
+- **Bitbucket**: Plataforma de Atlassian orientada a proyectos privados.
+- **GitLab**: Ofrece herramientas DevOps integradas, CI/CD y seguimiento de problemas.
+
+Cada una tiene características distintas, pero todas permiten usar Git como sistema de control de versiones.
+
+La elección entre ellas depende de las necesidades del equipo y del tipo de proyecto.
+
+
+
 
 
 
