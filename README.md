@@ -417,6 +417,24 @@ En cuanto al nombre de la rama, debe ser:
 - Puede incluir un ID del sistema de tickets si se usa uno.
 
 Ejemplo: `feat/login-form-validation` o `fix/issue-42-navbar`.
+#
+# Tema8
+
+# ¿Cuándo deshacer cambios en Git?
+
+Deshacer cambios en Git es útil cuando:
+- El proyecto dejó de funcionar por un cambio reciente.
+- Queremos recuperar una parte del código eliminado.
+- Se borró un archivo importante por error.
+
+No siempre se trata de errores graves; a veces solo queremos regresar a un punto anterior,  
+ver cómo estaba un archivo o corregir una acción equivocada.
+
+Existen comandos para estos casos, algunos afectan el historial y otros no.  
+Elegir el correcto depende de lo que queremos lograr y si trabajamos solos o en equipo.
+
+Siempre es buena práctica entender si el cambio será visible en el historial (no destructivo)  
+o si va a modificarlo (destructivo), ya que esto puede afectar la colaboración con otras personas.
 
 
 
