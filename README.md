@@ -121,6 +121,26 @@ Es un puntero que indica en qué commit estás.
 Actúa como un “Estás aquí” en un mapa del historial de Git.
 
 El HEAD se actualiza con cada nuevo commit o cuando cambias de rama o commit.
+#
+# Tema3
+
+# Ramas en Git
+
+## ¿Qué es una rama?
+
+Una rama es una versión paralela del código.  
+Técnicamente, es un apuntador a un commit específico.
+
+Permite trabajar sin afectar la rama principal, ideal para desarrollo de nuevas funciones o pruebas.
+
+## ¿Para qué sirven?
+
+- Fomentan el trabajo colaborativo.
+- Permiten un flujo de trabajo no lineal.
+- Separan funcionalidades o correcciones específicas.
+
+Son clave para un desarrollo ordenado y seguro.
+
 
 
 
