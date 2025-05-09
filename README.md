@@ -365,6 +365,21 @@ Modelo basado en confianza y responsabilidad del equipo:
 
 Este último modelo solo funciona en equipos maduros con buena comunicación,  
 automatización de pruebas y responsabilidad individual clara.
+#
+# Tema7
+
+# ¿Para qué sirven las buenas prácticas en Git?
+
+Las buenas prácticas permiten que todo el equipo tenga un estándar de trabajo uniforme.  
+Facilitan la colaboración, el entendimiento del historial de cambios y la resolución de problemas.  
+Cuando se trabaja con muchas personas o se mantiene un proyecto a largo plazo,  
+tener un historial limpio y coherente en los commits hace la diferencia.
+
+Además, ayudan a prevenir errores comunes y fomentan una cultura de desarrollo más profesional.  
+Un proyecto bien gestionado con buenas prácticas en Git se vuelve más fácil de escalar, mantener y revisar.
+
+También permiten detectar errores más rápido y evitan que se generen conflictos innecesarios al momento de hacer merges.
+
 
 
 
