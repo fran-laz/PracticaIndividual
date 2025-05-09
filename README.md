@@ -485,6 +485,43 @@ Operan en servidores remotos, como GitHub. Permiten mayor control sobre los push
 3. Escribe el script deseado en bash, python u otro lenguaje.
 4. Asegúrate de que tenga permisos de ejecución.
 
+# Alias en Git
+
+Un alias en Git permite acortar comandos repetitivos o complejos. Se configura de forma global o local, y ayuda a trabajar de forma más ágil.
+
+### Ejemplos de configuración:
+git config --global alias.co checkout
+git config --global alias.cm "commit -m"
+
+
+Esto te permite usar:
+
+- `git co` → `git checkout`
+- `git cm "mensaje"` → `git commit -m "mensaje"`
+
+# Trucos en Git
+
+## Guardar cambios temporalmente con git stash
+- `git stash`: Guarda archivos modificados.
+- `git stash -u`: Incluye archivos sin seguimiento.
+- `git stash pop`: Restaura los cambios guardados.
+
+## Aplicar un commit específico con cherry-pick
+- `git cherry-pick <SHA>`: Aplica un commit de otra rama a la actual.
+
+## Encontrar errores con git bisect
+- `git bisect start` → Inicia la búsqueda.
+- `git bisect bad` → Marca el commit actual como defectuoso.
+- `git bisect good` → Marca un commit anterior como correcto.
+- `git bisect reset` → Termina la búsqueda.
+
+## Otros trucos útiles
+- Modificar el último commit:
+  `git commit --amend -m "nuevo mensaje"`
+
+- Recuperar archivo de otra rama:
+  `git checkout <SHA> <archivo>`
+
 
 
 
