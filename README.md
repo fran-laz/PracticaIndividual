@@ -234,6 +234,23 @@ GitHub permite gestionar múltiples aspectos de los repositorios:
 
 Además, GitHub permite buscar perfiles, proyectos y organizaciones fácilmente desde su interfaz.
 
+# Repositorios remotos y SSH en GitHub
+
+Los repositorios remotos permiten sincronizar cambios entre computadoras.
+
+### Para conectar un repositorio local a uno remoto:
+git remote add origin <url>
+git push origin main
+
+
+### Para usar SSH:
+1. Generar key: `ssh-keygen -t rsa -b 4096 -C "tu.email@gmail.com"`
+2. Activar el agente: `eval "$(ssh-agent -s)"`
+3. Añadir key: `ssh-add ~/.ssh/id_rsa`
+4. Copiar la clave pública y pegarla en GitHub.
+
+También puedes clonar repositorios, crear ramas remotas y sincronizar cambios fácilmente con comandos Git.
+
 
 
 
