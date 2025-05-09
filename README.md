@@ -307,6 +307,25 @@ Una Pull Request (PR) es una solicitud para integrar cambios de una rama a otra 
 ## Revisar una PR
 - Da feedback constructivo y claro.
 - Considera el contexto del cambio, incluso si no es el código más elegante.
+#
+# Tema6
+# ¿Qué es GitFlow?
+
+GitFlow es una metodología para trabajar con Git de forma colaborativa y organizada.  
+Fue propuesto por Vincent Driessen y establece un flujo de trabajo estándar que facilita  
+el desarrollo en equipos, especialmente cuando hay múltiples versiones del producto en diferentes etapas.
+
+En esencia, GitFlow define cómo y cuándo crear ramas para ciertas tareas como desarrollo de funciones,  
+preparación para lanzamientos, corrección de errores y mantenimiento en producción.  
+Promueve una estructura ordenada de ramas para minimizar conflictos y mejorar la trazabilidad.
+
+Este flujo de trabajo establece ciertas ramas principales y su propósito en el ciclo de vida del proyecto,  
+asegurando que cada cambio pase por un proceso lógico y predecible antes de llegar a producción.
+
+GitFlow no es una herramienta, sino una convención de uso de Git.  
+Sin embargo, existen herramientas que ayudan a implementarlo fácilmente en distintos entornos.
+
+> Requiere disciplina y se recomienda para equipos con ciclos de desarrollo definidos.
 
 
 
