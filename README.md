@@ -454,6 +454,36 @@ Conservan el historial.
 **Consejo:**  
 Usa `revert` si ya compartiste tus cambios con otros,  
 y `reset` solo si estás trabajando en una rama local que nadie más usa.
+#
+# Tema9
+
+# Hooks en Git
+
+## ¿Qué es un Hook?
+Los hooks en Git son scripts que permiten ejecutar acciones automáticas en respuesta a ciertos eventos. Son útiles para automatizar tareas, validar contenido, o integrar herramientas externas. Existen dos tipos: del lado del cliente y del servidor.
+
+## Hooks del lado del cliente
+Funcionan en tu repositorio local. Algunos ejemplos son:
+
+- **pre-commit**: Ejecuta validaciones antes del commit. Útil para linters o evitar agregar demasiados archivos.
+- **commit-msg**: Valida el contenido del mensaje del commit.
+- **prepare-commit-msg**: Modifica automáticamente el mensaje del commit.
+- **post-commit**: Ideal para notificaciones (como Slack) tras un commit exitoso.
+- **pre-push**: Ejecuta pruebas antes de subir los cambios.
+- **post-checkout/post-merge**: Limpian el entorno tras cambios de rama o fusiones.
+
+## Hooks del lado del servidor
+Operan en servidores remotos, como GitHub. Permiten mayor control sobre los pushes:
+
+- **pre-receive**: Valida los commits antes de aceptarlos.
+- **update**: Controla cambios en ramas o referencias específicas.
+- **post-receive**: Notifica por correo o actualiza interfaces con nueva información del repositorio.
+
+## Crear un Hook personalizado
+1. Ubica la carpeta `.git/hooks`.
+2. Crea un archivo con el nombre del hook deseado (ej. `pre-commit`).
+3. Escribe el script deseado en bash, python u otro lenguaje.
+4. Asegúrate de que tenga permisos de ejecución.
 
 
 
