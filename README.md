@@ -327,6 +327,24 @@ Sin embargo, existen herramientas que ayudan a implementarlo fácilmente en dist
 
 > Requiere disciplina y se recomienda para equipos con ciclos de desarrollo definidos.
 
+# Ramas en GitFlow
+
+GitFlow establece un conjunto de ramas bien definidas para organizar el desarrollo:
+
+- `main` o `master`: contiene el código en producción, siempre estable.
+- `develop`: incluye el código que está en integración y pruebas antes de liberarse.
+- `feature`: ramas que nacen de `develop` para trabajar en nuevas funcionalidades.
+- `release`: ramas temporales para preparar una versión estable desde `develop`.
+- `hotfix`: ramas críticas que nacen desde `main` para corregir errores urgentes.
+
+Cada rama tiene una función específica en el ciclo de vida del software,  
+lo que facilita el mantenimiento, la colaboración y el control de calidad.
+
+El flujo habitual consiste en trabajar en ramas `feature`, integrarlas en `develop`,  
+crear una `release` para probar, y finalmente fusionar a `main` cuando esté listo.
+
+Este sistema minimiza conflictos y mejora la estabilidad del producto en cada etapa.
+
 
 
 
