@@ -54,6 +54,23 @@ Tipos:
 
 Son la base para trabajar con Git.
 
+# Instalación y configuración básica de Git
+
+1. Visita https://git-scm.com/downloads
+2. Descarga el instalador según tu sistema.
+3. Ejecuta el archivo y sigue las instrucciones.
+
+Configuraciones clave:
+- Seleccionar el editor (VSCode, Vim, etc.)
+- Definir la rama principal como `main`.
+- Usar Git Bash como terminal.
+- Activar conexión SSH y OpenSSL.
+- Habilitar caché para comandos más rápidos.
+- No activar funciones experimentales.
+
+Con esto, Git queda listo para usar en tu entorno.
+
+
 
 
 
