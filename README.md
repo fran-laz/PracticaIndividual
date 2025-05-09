@@ -436,6 +436,25 @@ Elegir el correcto depende de lo que queremos lograr y si trabajamos solos o en 
 Siempre es buena práctica entender si el cambio será visible en el historial (no destructivo)  
 o si va a modificarlo (destructivo), ya que esto puede afectar la colaboración con otras personas.
 
+# Comandos para deshacer cambios en Git
+
+Git ofrece distintos comandos para deshacer cambios, cada uno con un propósito específico:
+
+## Comandos destructivos
+Modifican el historial de commits.
+- `git reset --soft HEAD~1`: Regresa al commit anterior pero conserva los cambios en el área de staging.
+- `git reset --hard HEAD~1`: Elimina los cambios completamente.
+- También se puede usar con un hash SHA específico.
+
+## Comandos no destructivos
+Conservan el historial.
+- `git revert <SHA>`: Crea un nuevo commit que revierte los cambios del commit indicado.
+- `git checkout <SHA> -- <archivo>`: Recupera un archivo o versión específica de un commit anterior.
+
+**Consejo:**  
+Usa `revert` si ya compartiste tus cambios con otros,  
+y `reset` solo si estás trabajando en una rama local que nadie más usa.
+
 
 
 
