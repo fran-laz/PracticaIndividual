@@ -157,6 +157,24 @@ Esto incorpora los commits de la rama seleccionada a la rama actual.
 
 Las fusiones permiten consolidar el trabajo y mantener el historial del proyecto.
 
+# Eliminar ramas y comandos útiles
+
+## ¿Por qué eliminar ramas?
+
+- Mantener limpio el repositorio.
+- Las ramas deben tener un propósito puntual y corto.
+
+Eliminar ramas que ya cumplieron su función es una buena práctica.
+
+## Comandos útiles
+
+- Ver ramas: `git branch` o `git branch -a`
+- Eliminar rama: `git branch -d <nombre>`
+- Cambiar de rama: `git switch <nombre>`
+- Mezcla sin fast-forward: `git merge <rama> --no-ff`
+- Cambiar con checkout: `git checkout <rama>`
+
+
 
 
 
