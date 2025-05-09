@@ -289,6 +289,26 @@ Ambos comandos mantienen sincronizados los repositorios locales y remotos.
 
 Estos experimentos ayudan a comprender mejor cómo fluye el trabajo entre local y remoto.
 
+# ¿Qué es una Pull Request?
+
+Una Pull Request (PR) es una solicitud para integrar cambios de una rama a otra dentro de un repositorio.
+
+## ¿Cómo se hace una PR?
+1. Subes tu rama con `git push`.
+2. Luego:
+   - GitHub puede sugerirte crear una PR automáticamente.
+   - O puedes ir a la pestaña Pull Request y crearla manualmente.
+
+## Buenas prácticas al hacer una PR
+- Que el código esté enfocado en una sola funcionalidad.
+- Explicar claramente los cambios realizados.
+- Incluir imágenes, GIFs o videos puede ser muy útil.
+
+## Revisar una PR
+- Da feedback constructivo y claro.
+- Considera el contexto del cambio, incluso si no es el código más elegante.
+
+
 
 
 
