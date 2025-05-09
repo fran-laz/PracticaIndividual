@@ -174,6 +174,23 @@ Eliminar ramas que ya cumplieron su función es una buena práctica.
 - Mezcla sin fast-forward: `git merge <rama> --no-ff`
 - Cambiar con checkout: `git checkout <rama>`
 
+# Conflictos en Git
+
+## ¿Qué es un conflicto?
+
+Ocurre cuando dos ramas modifican la misma línea de un archivo.
+
+## ¿Cómo resolverlos?
+
+Tienes tres opciones:
+- Conservar cambios de `main`.
+- Conservar cambios de la rama fusionada.
+- Editar manualmente para combinar ambos cambios.
+
+Al resolverlos, se guarda el archivo, se añade (`git add`) y se finaliza el merge con un commit.
+
+Los conflictos son comunes y parte del trabajo colaborativo.
+
 
 
 
