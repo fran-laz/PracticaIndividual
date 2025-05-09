@@ -397,6 +397,28 @@ En su lugar, divide los cambios en partes comprensibles y coherentes.
 No significa que debas hacer un commit por cada línea,  
 sino encontrar un punto medio con sentido técnico y práctico.
 
+# Escribir buenos commits y nombres de ramas
+
+Un buen commit tiene un mensaje claro, corto y en imperativo, por ejemplo:  
+"Add login validation" o "Fix user profile bug".  
+Evita usar más de 50 caracteres y no pongas punto final.
+
+Usar prefijos semánticos ayuda a clasificar rápidamente los cambios:
+- `feat:` nueva funcionalidad.
+- `fix:` corrección de errores.
+- `docs:` cambios en documentación.
+- `refactor:` limpieza o mejora del código sin cambiar su funcionalidad.
+- `style:`, `test:`, `perf:`, `ci:`, `build:` según el tipo de cambio.
+
+En cuanto al nombre de la rama, debe ser:
+- Claro, corto y descriptivo.
+- Relacionado con lo que se va a hacer.
+- Consistente con otras ramas del proyecto.
+- Puede incluir un ID del sistema de tickets si se usa uno.
+
+Ejemplo: `feat/login-form-validation` o `fix/issue-42-navbar`.
+
+
 
 
 
