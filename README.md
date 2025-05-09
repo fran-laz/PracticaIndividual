@@ -89,7 +89,22 @@ Estos estados ayudan a gestionar cambios de forma segura y organizada.
 
 Permiten controlar qué archivos se agregan o no a un commit, evitando errores en el historial del proyecto.
 
----
+# ¿Qué es un commit?
+
+Un commit es un registro de cambios en el proyecto.
+
+Piensa en él como una fotografía del estado del proyecto en un momento específico.
+
+Cada commit contiene información: autor, fecha, mensaje descriptivo y contenido del cambio.
+
+Son esenciales para trabajar en equipo, hacer seguimiento de la evolución del proyecto y recuperar versiones anteriores.
+
+También pueden verse como puntos de restauración, como cuando se guarda una partida en un videojuego.
+
+Este sistema permite experimentar sin miedo a perder avances importantes.
+
+
+
 
 
 
