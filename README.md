@@ -1,7 +1,7 @@
 # Practica Individual
 Practica individual del curso de Git y Github de la Scesi
 #
-#
+# Tema 1
 # Introducción a Git
 
 ## ¿Qué es un control de versiones?
@@ -33,6 +33,27 @@ Es fundamental para cualquier equipo de desarrollo moderno.
 - **2024**: Git domina el mercado. Se usa también en GitLab y Bitbucket.
 
 Git fue diseñado para ser rápido, confiable y seguro, especialmente útil en proyectos distribuidos como el kernel de Linux.
+
+# ¿Qué es Git?
+
+Git es un sistema de control de versiones distribuido.  
+Cada desarrollador tiene una copia completa del historial del proyecto.
+
+Ventajas:
+- Rápido y eficiente.
+- Soporte para ramas y fusiones.
+- Trabajo colaborativo sin conexión constante.
+
+## ¿Qué es un repositorio?
+
+Es donde Git guarda todo el historial de un proyecto.
+
+Tipos:
+- **Local**: en tu equipo.
+- **Remoto**: en la nube, usando servicios como GitHub.
+
+Son la base para trabajar con Git.
+
 
 
 
