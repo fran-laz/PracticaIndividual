@@ -141,6 +141,23 @@ Permite trabajar sin afectar la rama principal, ideal para desarrollo de nuevas 
 
 Son clave para un desarrollo ordenado y seguro.
 
+# Crear y fusionar ramas
+
+## Crear una rama
+
+Usa el comando:
+git branch <nombre-rama>
+
+## Fusionar ramas
+
+Para integrar los cambios de una rama en otra, usamos:
+git merge <nombre-rama>
+
+Esto incorpora los commits de la rama seleccionada a la rama actual.
+
+Las fusiones permiten consolidar el trabajo y mantener el historial del proyecto.
+
+
 
 
 
