@@ -1,6 +1,7 @@
 # Practica Individual
 Practica individual del curso de Git y Github de la Scesi
 #
+#
 # Tema 1
 # Introducción a Git
 
@@ -69,6 +70,27 @@ Configuraciones clave:
 - No activar funciones experimentales.
 
 Con esto, Git queda listo para usar en tu entorno.
+#
+# Tema 2
+# Estados de los archivos en Git
+
+Git maneja tres estados principales:
+
+## 1. Modified (Modificado)
+El archivo fue creado, editado o eliminado, pero los cambios no están preparados para un commit.
+
+## 2. Staged (Preparado)
+El archivo fue marcado con `git add` y está listo para ser confirmado en el repositorio local.
+
+## 3. Committed (Confirmado)
+El archivo ya fue confirmado en el repositorio local. Es como guardar el progreso del proyecto.
+
+Estos estados ayudan a gestionar cambios de forma segura y organizada.
+
+Permiten controlar qué archivos se agregan o no a un commit, evitando errores en el historial del proyecto.
+
+---
+
 
 
 
