@@ -103,6 +103,25 @@ También pueden verse como puntos de restauración, como cuando se guarda una pa
 
 Este sistema permite experimentar sin miedo a perder avances importantes.
 
+# Cómo hacer un commit y qué es el HEAD
+
+## Hacer un commit:
+1. Prepara archivos con `git add archivo.txt`
+2. Ejecuta `git commit -m "Mensaje descriptivo"`
+
+Un buen mensaje de commit explica claramente el cambio.
+
+Ejemplo:
+git add login.js
+git commit -m "Corrige validación de campos en login"
+
+## ¿Qué es el HEAD?
+Es un puntero que indica en qué commit estás.
+
+Actúa como un “Estás aquí” en un mapa del historial de Git.
+
+El HEAD se actualiza con cada nuevo commit o cuando cambias de rama o commit.
+
 
 
 
