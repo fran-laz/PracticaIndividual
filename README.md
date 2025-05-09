@@ -219,6 +219,21 @@ Cada una tiene características distintas, pero todas permiten usar Git como sis
 
 La elección entre ellas depende de las necesidades del equipo y del tipo de proyecto.
 
+# Navegando por GitHub
+
+GitHub permite gestionar múltiples aspectos de los repositorios:
+
+- **Repository > Code**: Archivos del repositorio.
+- **Pull Requests**: Solicitudes de cambio.
+- **Actions**: Automatización de flujos de trabajo.
+- **Projects**: Gestión tipo kanban.
+- **Wiki**: Documentación interna.
+- **Security**: Vulnerabilidades.
+- **Insights**: Estadísticas.
+- **Settings**: Configuraciones del repo.
+
+Además, GitHub permite buscar perfiles, proyectos y organizaciones fácilmente desde su interfaz.
+
 
 
 
